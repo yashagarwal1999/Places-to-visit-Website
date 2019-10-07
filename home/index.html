@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Home</title>
+      <link rel="stylesheet" type="text/css" href="css/bookblock.css" />
+    <link rel="stylesheet" type="text/css" href="css/custom.css" />
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./style.css">
+</head>
+<body style="overflow-x: hidden;">
+	<div id="bb-bookblock" class="bb-bookblock">
+	<div class="open" style="z-index: 99"> <span class="cls"></span> <span>
+  <ul class="sub-menu" style="z-index: 99;">
+    <li> <a href="../home/index.html">Home</a> </li>
+    <li> <a href="../mumbai/index.html">Mumbai</a> </li>
+    <li> <a href="../psong/index.html">Leh Ladakh</a> </li>
+     <li> <a href="../kasol/index.html">Kasol</a> </li>
+    <li> <a href="../corbett/index.html">Jim Corbett</a> </li>
+
+
+  </ul>
+  </span>
+  <span class="cls"></span>
+</div>
+<!-- partial:index.partial.html -->
+<div clas="container-fluid" >
+  <div class="row">
+    <div class="col-12" style="background-color: red;">
+		<section class="head">
+			<a href="" style="color: #fff; text-decoration: none; " data-bf="WELCOME TO INDIA" data-af="INCREDIBLE INDIA" >PLACES TO VISIT</a>
+		</section>
+</div>
+	<section class="p16">
+   
+		<a href="../mumbai/index.html" style="color: #fff; text-decoration: none;">MUMBAI</a>
+
+	</section>
+
+	<section class="p11">
+		<a href="../psong/index.html" style="color: #fff; text-decoration: none;">LEH LADAKH</a>
+	</section>
+	<section class="p18">
+    
+  <div class="row">
+    <div class="col-12">
+		<a href="../corbett/index.html" style="color: #fff; text-decoration: none;">JIM CORBETT</a>
+  </div>
+</div>
+
+	</section>
+
+	<section class="p17">
+		<a href="../kasol/index.html" style="color: #fff; text-decoration: none;">KASOL</a>
+	</section>
+</div>
+</div>
+</div>
+	</div>
+  <script  src="./script.js"></script>
+<!-- partial -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script src="js/jquery.jscrollpane.min.js"></script>
+    <script src="js/jquerypp.custom.js"></script>
+    <script src="js/jquery.bookblock.js"></script>
+    <script src="js/page.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/scrollify/1.0.19/jquery.scrollify.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>  
+<script src='https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src="js/res.js"></script>
+ <script>
+$(document).ready(function() {
+    $(document).delegate('.open', 'click', function(event){
+      $(this).addClass('oppenned');
+      event.stopPropagation();
+    })
+    $(document).delegate('body', 'click', function(event) {
+      $('.open').removeClass('oppenned');
+    })
+    $(document).delegate('.cls', 'click', function(event){
+      $('.open').removeClass('oppenned');
+      event.stopPropagation();
+    });
+  });
+</script> 
+</body>
+</html>
